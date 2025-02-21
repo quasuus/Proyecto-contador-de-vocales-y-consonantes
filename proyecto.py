@@ -15,9 +15,11 @@ total_palabras= 0
 
 
 while True:
-    frase=input("Ingresa una frase: ") #menú para ingresar frase
+    frase = input("\n Ingresa una frase: ").strip()
+    
     if not frase:
-        break 
+        print("\n Programa terminado. ¡Hasta luego!")
+        break
 
 
     while True:
